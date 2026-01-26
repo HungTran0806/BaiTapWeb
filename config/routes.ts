@@ -25,6 +25,12 @@
 		icon: 'HomeOutlined',
 	},
 	{
+  		path: '/products',
+		name:'Sanpham',
+  		component: '@/pages/QuanLySanPham/Bai1',
+	},
+
+	{
 		path: '/gioi-thieu',
 		name: 'About',
 		component: './TienIch/GioiThieu',
