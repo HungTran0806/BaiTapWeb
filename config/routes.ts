@@ -25,20 +25,34 @@
 		icon: 'HomeOutlined',
 	},
 	{
-		path: '/quan-ly-san-pham',
-		name: 'Quản lý sản phẩm',
-		component: '@/pages/QuanLySanPham/Bai2',
+		path: '/minigame',
+		name: 'Minigame',
+		component: '@/pages/TH01/Bai1',
+		icon: 'BugOutlined'
+		
 	},
 	{
-		path: '/quan-ly-don-hang',
-		name: 'Quản lý Đơn hàng',
-		component: '@/pages/QuanLyDonHang/Bai2',
+		path: '/studytracker',
+		name: 'StudyTracker',
+		component: '@/pages/TH01/Bai2',
+		icon: 'BugOutlined'
+		
 	},
-	{
-		path: '/bai-tap',
-		name: 'Bài tập',
-		component: '@/pages/BaiTap02/BaiTap',
-	},
+	// {
+	// 	path: '/quan-ly-san-pham',
+	// 	name: 'Quản lý sản phẩm',
+	// 	component: '@/pages/QuanLySanPham/Bai2',
+	// },
+	// {
+	// 	path: '/quan-ly-don-hang',
+	// 	name: 'Quản lý Đơn hàng',
+	// 	component: '@/pages/QuanLyDonHang/Bai2',
+	// },
+	// {
+	// 	path: '/bai-tap',
+	// 	name: 'Bài tập',
+	// 	component: '@/pages/BaiTap02/BaiTap',
+	// },
 	{
 		path: '/gioi-thieu',
 		name: 'About',
