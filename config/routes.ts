@@ -25,11 +25,20 @@
 		icon: 'HomeOutlined',
 	},
 	{
-  		path: '/products',
-		name:'Sanpham',
-  		component: '@/pages/QuanLySanPham/Bai1',
+		path: '/quan-ly-san-pham',
+		name: 'Quản lý sản phẩm',
+		component: '@/pages/QuanLySanPham/Bai2',
 	},
-
+	{
+		path: '/quan-ly-don-hang',
+		name: 'Quản lý Đơn hàng',
+		component: '@/pages/QuanLyDonHang/Bai2',
+	},
+	{
+		path: '/bai-tap',
+		name: 'Bài tập',
+		component: '@/pages/BaiTap02/BaiTap',
+	},
 	{
 		path: '/gioi-thieu',
 		name: 'About',
