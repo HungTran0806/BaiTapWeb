@@ -24,10 +24,20 @@
 		component: './TrangChu',
 		icon: 'HomeOutlined',
 	},
+	// {
+  	// 	path: '/products',
+	// 	name:'Sanpham',
+  	// 	component: '@/pages/QuanLySanPham/Bai1',
+	// },
 	{
   		path: '/products',
 		name:'Sanpham',
-  		component: '@/pages/QuanLySanPham/Bai1',
+  		component: '@/pages/QuanLySanPham/Bai2',
+	},
+	{
+  		path: '/order',
+		name:'Donhang',
+  		component: '@/pages/QuanLyDonHang/Bai2',
 	},
 
 	{
