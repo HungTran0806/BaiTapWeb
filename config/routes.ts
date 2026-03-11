@@ -24,20 +24,34 @@
 		component: './TrangChu',
 		icon: 'HomeOutlined',
 	},
+	// {
+	// 	path: '/minigame',
+	// 	name: 'Minigame',
+	// 	component: '@/pages/TH01/Bai1',
+	// 	icon: 'BugOutlined'
+		
+	// },
+	// {
+	// 	path: '/studytracker',
+	// 	name: 'StudyTracker',
+	// 	component: '@/pages/TH01/Bai2',
+	// 	icon: 'BugOutlined'
+		
+	// },
 	{
-		path: '/minigame',
-		name: 'Minigame',
-		component: '@/pages/TH01/Bai1',
-		icon: 'BugOutlined'
+		path: '/rockpaperscissors',
+		name: 'Kéo Búa Bao',
+		component: '@/pages/TH02/Bai1/KeoBuaBao',
 		
 	},
-	{
-		path: '/studytracker',
-		name: 'StudyTracker',
-		component: '@/pages/TH01/Bai2',
-		icon: 'BugOutlined'
+	// {
+	// 	path: '/questionbank',
+	// 	name: 'Ngân hàng câu hỏi',
+	// 	component: '@/pages/TH02/Bai2/NganHangCauHoi',
 		
-	},
+	// },
+		
+
 	// {
 	// 	path: '/quan-ly-san-pham',
 	// 	name: 'Quản lý sản phẩm',
