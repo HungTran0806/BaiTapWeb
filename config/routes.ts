@@ -25,19 +25,25 @@
 		icon: 'HomeOutlined',
 	},
 	{
-		path: '/minigame',
-		name: 'Minigame',
-		component: '@/pages/TH01/Bai1',
-		icon: 'BugOutlined'
+		path: '/bookingmanager',
+		name: 'Bookingmanager',
+		component: '@/pages/TH03/App',
 		
 	},
-	{
-		path: '/studytracker',
-		name: 'StudyTracker',
-		component: '@/pages/TH01/Bai2',
-		icon: 'BugOutlined'
+	// {
+	// 	path: '/minigame',
+	// 	name: 'Minigame',
+	// 	component: '@/pages/TH01/Bai1',
+	// 	icon: 'BugOutlined'
 		
-	},
+	// },
+	// {
+	// 	path: '/studytracker',
+	// 	name: 'StudyTracker',
+	// 	component: '@/pages/TH01/Bai2',
+	// 	icon: 'BugOutlined'
+		
+	// },
 	// {
 	// 	path: '/quan-ly-san-pham',
 	// 	name: 'Quản lý sản phẩm',
