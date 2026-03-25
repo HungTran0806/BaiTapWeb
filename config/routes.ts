@@ -19,16 +19,21 @@
 	///////////////////////////////////
 	// DEFAULT MENU
 	{
+		path: '/Diplomamanagement',
+		name: 'Diploma management',
+		component: '@/pages/TH04/App',
+	},
+	{
 		path: '/dashboard',
 		name: 'Dashboard',
 		component: './TrangChu',
 		icon: 'HomeOutlined',
 	},
-	{
-  		path: '/products',
-		name:'Sanpham',
-  		component: '@/pages/QuanLySanPham/Bai1',
-	},
+	// {
+  	// 	path: '/products',
+	// 	name:'Sanpham',
+  	// 	component: '@/pages/QuanLySanPham/Bai1',
+	// },
 
 	{
 		path: '/gioi-thieu',
