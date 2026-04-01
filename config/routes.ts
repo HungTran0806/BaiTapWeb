@@ -24,11 +24,6 @@
 		component: './TrangChu',
 		icon: 'HomeOutlined',
 	},
-	{
-  		path: '/products',
-		name:'Sanpham',
-  		component: '@/pages/QuanLySanPham/Bai1',
-	},
 
 	{
 		path: '/gioi-thieu',
@@ -47,6 +42,35 @@
 		name: 'TodoList',
 		icon: 'OrderedListOutlined',
 		component: './TodoList',
+	},
+
+	// QUAN LY CAU LAC BO
+	{
+		name: 'Club Management',
+		path: '/club-management',
+		icon: 'TeamOutlined',
+		routes: [
+			{
+				path: '/club-management/clubs',
+				name: 'Club List',
+				component: './QuanLyCauLacBo',
+			},
+			{
+				path: '/club-management/registrations',
+				name: 'Registration Applications',
+				component: './QuanLyDonDangKy',
+			},
+			{
+				path: '/club-management/members',
+				name: 'Club Members',
+				component: './QuanLyThanhVienCLB',
+			},
+			{
+				path: '/club-management/reports',
+				name: 'Reports & Statistics',
+				component: './BaoCaoThongKe',
+			},
+		],
 	},
 
 	// DANH MUC HE THONG
