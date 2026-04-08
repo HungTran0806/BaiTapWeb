@@ -24,11 +24,11 @@
 		component: './TrangChu',
 		icon: 'HomeOutlined',
 	},
-	{
-  		path: '/products',
-		name:'Sanpham',
-  		component: '@/pages/QuanLySanPham/Bai1',
-	},
+	// {
+  	// 	path: '/products',
+	// 	name:'Sanpham',
+  	// 	component: '@/pages/QuanLySanPham/Bai1',
+	// },
 
 	{
 		path: '/gioi-thieu',
@@ -47,6 +47,49 @@
 		name: 'TodoList',
 		icon: 'OrderedListOutlined',
 		component: './TodoList',
+	},
+
+	// TRAVEL PLANNING APP
+	{
+		name: 'Travel',
+		path: '/travel',
+		icon: 'GlobalOutlined',
+		routes: [
+			{
+				path: '/travel',
+				redirect: '/travel/home',
+			},
+			{
+				path: '/travel/home',
+				name: 'Khám phá điểm đến',
+				component: './Travel/Home',
+				icon: 'HomeOutlined',
+			},
+			{
+				path: '/travel/itinerary',
+				name: 'Tạo lịch trình',
+				component: './Travel/Itinerary',
+				icon: 'CalendarOutlined',
+			},
+			{
+				path: '/travel/budget',
+				name: 'Quản lý ngân sách',
+				component: './Travel/Budget',
+				icon: 'DollarOutlined',
+			},
+			{
+				path: '/travel/admin',
+				name: 'Quản lý điểm đến',
+				component: './Travel/Admin',
+				icon: 'SettingOutlined',
+			},
+			{
+				path: '/travel/statistics',
+				name: 'Thống kê',
+				component: './Travel/Statistics',
+				icon: 'BarChartOutlined',
+			},
+		],
 	},
 
 	// DANH MUC HE THONG
