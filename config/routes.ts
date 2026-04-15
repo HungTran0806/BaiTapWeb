@@ -25,19 +25,19 @@
 		icon: 'HomeOutlined',
 	},
 	// {
-  	// 	path: '/products',
+	// 	path: '/products',
 	// 	name:'Sanpham',
-  	// 	component: '@/pages/QuanLySanPham/Bai1',
+	// 	component: '@/pages/QuanLySanPham/Bai1',
 	// },
 	{
-  		path: '/products',
-		name:'Sanpham',
-  		component: '@/pages/QuanLySanPham/Bai2',
+		path: '/products',
+		name: 'SanPhamPage',
+		component: '@/pages/QuanLySanPham/Bai2',
 	},
 	{
-  		path: '/order',
-		name:'Donhang',
-  		component: '@/pages/QuanLyDonHang/Bai2',
+		path: '/orders',
+		name: 'DonHangPage',
+		component: '@/pages/QuanLyDonHang/Bai2',
 	},
 
 	{
