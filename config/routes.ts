@@ -25,6 +25,30 @@
 		icon: 'HomeOutlined',
 	},
 	{
+		path: '/tap-luyen',
+		name: 'Nhật ký tập luyện',
+		component: './TapLuyen',
+		icon: 'ScheduleOutlined',
+	},
+	{
+		path: '/chi-so-suc-khoe',
+		name: 'Nhật ký chỉ số sức khỏe',
+		component: './ChiSo',
+		icon: 'HeartOutlined',
+	},
+	{
+		path: '/muc-tieu',
+		name: 'Quản lý mục tiêu',
+		component: './MucTieu',
+		icon: 'CheckCircleOutlined',
+	},
+	{
+		path: '/thu-vien-bai-tap',
+		name: 'Thư viện bài tập',
+		component: './ThuVienBaiTap',
+		icon: 'AppstoreOutlined',
+	},
+	{
 		path: '/gioi-thieu',
 		name: 'About',
 		component: './TienIch/GioiThieu',
